@@ -1,6 +1,7 @@
 import React, {Fragment, Component} from 'react';
 import './App.css';
 import Navbar from './Component/layout/Navbar';
+import Events from './Component/events/Events';
 
 class App extends Component {
   render(){
@@ -8,9 +9,16 @@ class App extends Component {
     const name = "Admin";
     return (
       <div className="App">
-        <Navbar></Navbar>
-          Event Finder app
-          <h2>{loading ? <h3>loading</h3> : <h1>Hi {name}</h1> }</h2>
+        
+        <Navbar />
+        Event Finder app
+          {loading ? <h3>loading</h3> : <h1>Hi {name}</h1> }
+        <div className='container'> 
+          <Events /> 
+        </div>
+       
+        
+
       </div>
 
     );

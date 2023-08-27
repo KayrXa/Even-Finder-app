@@ -1,29 +1,30 @@
-import React, {Fragment, Component} from 'react';
-import './App.css';
-import Navbar from './Component/layout/Navbar';
-import Events from './Component/events/Events';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import AddEvent from './components/AddEvent';
+import AllEvents from './components/AllEvents';
+import Home from './components/Home';
+import Login from './components/Login';
+import MyEvents from './components/MyEvents';
+import Profile from './components/Profile';
+import Register from './components/Register';
+import EventDetail from './components/EventDetail';
+import NavBar from './components/NavBar';
 
-class App extends Component {
-  render(){
-    const loading = false;
-    const name = "Admin";
-    return (
-      <div className="App">
-        
-        <Navbar />
-        Event Finder app
-          {loading ? <h3>loading</h3> : <h1>Hi {name}</h1> }
-        <div className='container'> 
-          <Events /> 
-        </div>
-       
-        
-
-      </div>
-
-    );
-  }
-
+function App() {
+  return (
+    <BrowserRouter>
+     <NavBar/>
+      <Routes>
+        <Route path='' element={<Home/>}></Route>
+        <Route path='/all-events' element={<AllEvents/>}></Route>
+        <Route path='/my-events' element={<MyEvents/>}>
+          <Route path='/my-events/add' element={<AddEvent/>}></Route>
+        </Route>
+        <Route path='/events/:id' element={<EventDetail/>}></Route>
+        <Route path='/profile' element={<Profile/>}></Route>
+        <Route path='/login' element={<Login/>}></Route>
+        <Route path='/register' element={<Register/>}></Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
-
 export default App;

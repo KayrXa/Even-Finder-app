@@ -1,0 +1,115 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "pavelrygl",
+      "password": "ryglpavel54321",
+      "email": "prygl@gmail.com"
+    },
+    {
+      "id": 2,
+      "username": "Micahl",
+      "password": "Michalko123",
+      "email": "mechalkogmail@.com"
+    },
+    {
+      "username": "Aneta",
+      "password": "anetka34",
+      "email": "anetmrakac@gmail.com",
+      "id": 3
+    },
+    {
+      "username": "NinaVina",
+      "password": "vininana",
+      "email": "Ninacka@gmail.com",
+      "id": 4
+    },
+    {
+      "username": "Radinka",
+      "password": "Radkabradka",
+      "email": "bradacka@gmail.com",
+      "id": 5
+    },
+    {
+      "username": "Lemur",
+      "password": "lemur",
+      "email": "Lemur@lemurovic.com",
+      "id": 6
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "eName": "Scots day",
+      "eDate": "2.9.2023",
+      "eCity": "Zichovec",
+      "eRegion": "Stredocesky Region",
+      "eType": "Other Festivals",
+      "eURL": "https://www.kudyznudy.cz/akce/skotske-horalske-dny-na-zichovci",
+      "eImage": "https://cdn.kudyznudy.cz/files/74/74d2443a-3f16-4259-b15b-4144e7737ac3.webp?v=20230827072841",
+      "eDescription": "Jako každý rok se můžete těšit na živou hudbu, závody v tradičních skotských disciplínách, na dobré Zichovecké pivo a hlavně na skvělou atmosféru a zábavu. Skotské hry pořádá spolek Zichovec. Hlavním posláním spolku je sdružovat děti, mládež i dospělé osoby za účelem podpory tradičního skotského umění a sportu, aktivního trávení volného času a společenského života v obci a rozvoje občanské společnosti.",
+      "eCreatedBy": "pavelrygl"
+    },
+    {
+      "id": 2,
+      "eName": "Slavnostní zakončení letní sezóny",
+      "eDate": "2.6.2023",
+      "eCity": "Zvole",
+      "eRegion": "Vysocina Region",
+      "eType": "Theatre Festivals",
+      "eURL": "https://www.kudyznudy.cz/akce/ukonceni-letni-sezony-a-nedelni-derniera",
+      "eImage": "https://cdn.kudyznudy.cz/files/7d/7def9da6-d6a2-4ba3-b8e9-6cf6cba50e5d.webp?v=20230825071342",
+      "eDescription": "Může být lepší místo na Halloweenský výlet než strašidelný zámek? Strašidla z Draxmooru si navíc pro vás připravili spoustu legrácek. Tvořivé dílny pro malé děti i větší šikulky, drinkovou stezku odvahy ve verzi alko i nealko a samozřejmě dýňovu výzdobu, živá strašidla a snad i pěkné počasí.",
+      "eCreatedBy": "pavelrygl"
+    },
+    {
+      "eName": "Devils Extreme Race 2023",
+      "eDate": "25.8.2023",
+      "eCity": "Lipno nad Vltavou",
+      "eRegion": "Jihocesky Region",
+      "eType": "Food Festivals",
+      "eURL": "https://www.kudyznudy.cz/akce/certovy-proudy-devils-extreme-race-2011",
+      "eImage": "https://cdn.kudyznudy.cz/files/3b/3b8b9009-1d66-40a1-a098-3de8cf615d1c.webp?v=20230411211856",
+      "eDescription": "Jednou v roce teče v tomto nádherném koutu Jižních Čech několik dní voda v jinak prázdném korytě a tak zde mají své závody slalomáři, sjezdaři, raftaři a freestylisté, vedle kterých se do peřejí vydávají stovky pádlerů na raftech, kajacích a singlech. Přehrada vypouští vodu šest dní místo tří a zvedne se i objem z dvaceti kubických metrů na třicet, což se rovná třetímu povodňovému stavu.",
+      "eCreatedBy": "Micahl",
+      "id": 5
+    },
+    {
+      "eName": "Jesenické dožínky",
+      "eDate": "2.9.2023",
+      "eCity": "Bela pod Pradedem",
+      "eRegion": "Olomoucky Region",
+      "eType": "Traditons Festivals",
+      "eURL": "https://www.kudyznudy.cz/akce/jesenicke-dozinky",
+      "eImage": "https://cdn.kudyznudy.cz/files/91/914bc7ec-7121-4ffa-82a1-b2f7c614fd3f.webp?v=20230730090110",
+      "eDescription": "V areálu Ovčína v Bělé pod Pradědem se uskuteční v sobotu 2. září Jesenické dožínky. Akce začne v 10 hodin dopoledne a budete si na ní moct poslechnout country kapelu Karlováci, vystoupí Oškerovci, taneční soubory Lukavice, Jesénka a Jesenečka a další.",
+      "eCreatedBy": "Aneta",
+      "id": 7
+    },
+    {
+      "eName": "Chilli fest 2023",
+      "eDate": "2.9.2023",
+      "eCity": "Brnp",
+      "eRegion": "Jihomoravsky Region",
+      "eType": "Food Festivals",
+      "eURL": "https://www.kudyznudy.cz/akce/chillibrani-2023",
+      "eImage": "https://cdn.kudyznudy.cz/files/c3/c3294bcd-a36e-4267-bc2d-d15112d70891.webp?v=20230511071004",
+      "eDescription": "Rádi si pochutnáte na kvalitním burgeru? Máte v oblibě pikantní speciality mexické kuchyně? V tom případě zamiřte ve středu 28. června na pěší zónu Anděl, kde vás čeká ochutnávka toho nejlepšího z americké a mexické kuchyně",
+      "eCreatedBy": "Radinka",
+      "id": 8
+    },
+    {
+      "eName": "Meeting of car veterans Holešov 2023",
+      "eDate": "27.8.2023",
+      "eCity": "Holesov",
+      "eRegion": "Zlin Region",
+      "eType": "Historic Events",
+      "eURL": "https://www.kudyznudy.cz/akce/setkani-veteranu-6",
+      "eImage": "https://cdn.kudyznudy.cz/files/5b/5b16aff1-eec0-4135-b11d-9e3d2a8c4a8b.webp?v=20230804120600",
+      "eDescription": "Na konci srpna se koná tradiční setkání veteránů v Holešově. Součástí akce je burza, či soutěž elegance historických vozidel v kategorii Oldtimer a nově Yougtimer: auto, moto, užitková vozidla, vojenská vozidla a další HV.",
+      "eCreatedBy": "pavelrygl",
+      "eNumOfFav": 0,
+      "id": 10
+    }
+  ]
+}
